@@ -1,28 +1,33 @@
 {
-  "name": "module-13-challenge-orm",
+  "name": "fantastic-umbrella",
   "version": "1.0.0",
-  "description": "",
+  "description": "Back end for an e-commerce site",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "mysql": "mysql -u root -p",
     "start": "node server.js",
     "watch": "nodemon server.js",
     "seed": "node seeds/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git@work.github.com:coding-boot-camp/module-13-challenge-orm.git"
+    "url": "git+https://github.com/cacevedo2011/fantastic-umbrella.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "nodemon": "^2.0.3"
+  "author": "Cristian Acevedo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cacevedo2011/fantastic-umbrella/issues"
   },
+  "homepage": "https://github.com/cacevedo2011/fantastic-umbrella#readme",
   "dependencies": {
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "mysql2": "^2.1.0",
-    "sequelize": "^5.21.7"
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.3.5"
+  },
+  "devDependencies": {
+    "eslint": "^7.12.1",
+    "nodemon": "^2.0.6"
   }
 }
