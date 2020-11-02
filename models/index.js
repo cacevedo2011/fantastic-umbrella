@@ -10,7 +10,7 @@ Product.belongsTo(Category, {
 });
 
 // Categories have many Products
-Category.belongsToMany(Category,{
+Category.hasMany(Category,{
   foreignKey: 'category_id'
 })
 
